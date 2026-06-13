@@ -1,1 +1,43 @@
 /* Código CSS */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor
+{
+    width: 1200px;
+    margin: 25px auto;
+
+    background-color:lightgrey;
+}
+
+/************************************* header ************************************/
+.contenedor header
+{
+    position: relative;
+    
+    height: 350px;
+    background-color: darkgoldenrod;
+}
+
+/*********************************** main **************************************/
+.contenedor main
+{
+    position: relative;
+    
+    height: 900px;
+    background-color: aquamarine;
+}
+
+
+/*********************************** footer *********************************************/
+.contenedor footer
+{
+    position: relative;
+    
+    height: 300px;
+    background-color: rgb(87, 84, 84);
+}
