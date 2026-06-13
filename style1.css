@@ -19,8 +19,16 @@
 {
     position: relative;
     
+    /* height: 350px; */
+    /* background-color: darkgoldenrod; */
+}
+
+.contenedor header .fila
+{
+    position: relative;
+
     height: 350px;
-    background-color: darkgoldenrod;
+    background-color: blue;
 }
 
 /*********************************** main **************************************/
@@ -28,13 +36,47 @@
 {
     position: relative;
     
-    height: 900px;
-    background-color: aquamarine;
+    /* height: 900px; */
+    /* background-color: aquamarine; */
 }
 
+/********** fila1 **********/
+.contenedor main .fila:nth-child(1)
+{
+    position: relative;
+    
+    height: 200px;
+    background-color: rgb(137, 176, 163);
+}
+
+/********** fila2 **********/
+.contenedor main .fila:nth-child(2)
+{
+    position: relative;
+    
+    height: 250px;
+    background-color: rgb(185, 209, 200);
+}
+
+/********** fila3 **********/
+.contenedor main .fila:nth-child(3)
+{
+    position: relative;
+    
+    height: 300px;
+    background-color: rgb(137, 176, 163);
+}
 
 /*********************************** footer *********************************************/
 .contenedor footer
+{
+    position: relative;
+    
+    /* height: 300px; */
+    /* background-color: rgb(87, 84, 84); */
+}
+
+.contenedor footer .fila
 {
     position: relative;
     
